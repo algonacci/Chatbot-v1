@@ -4,6 +4,8 @@ The source code of Chatbot using Python and its library.
 ![alt_text](https://github.com/algonacci/Chatbot-v1/blob/main/thumbnail.jpg?raw=true)
 
 # How to install and use it?
+- Clone this repo to your local computer
+
 ## Install and import library
 - pip install tensorflow
 - pip install keras
