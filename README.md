@@ -10,6 +10,7 @@ The source code of Chatbot using Python and its library.
 - pip install nltk
 - pip install flask
 
+# Train the model and run it on a Flask web server
 ## 
 - Prepare a bunch of Bot's Response data in JSON format
 - Train the model with Bot's Response data in JSON by run the training.py file
