@@ -5,6 +5,10 @@ The source code of Chatbot using Python and its library.
 
 # How to install and use it?
 - Clone this repo to your local computer
+- Create a Python virtual environment by typing this in the terminal:
+```
+python -m venv .venv
+```
 
 ## Install and import library
 - pip install tensorflow
