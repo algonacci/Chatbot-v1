@@ -1,0 +1,73 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hii", "Hi", "Halo","Hallo","Hai", "Hello", "Hy", "Hyy", "Helo"],
+         "responses": ["Halo dengan TravBot disini. Ada yang bisa aku bantu?", "Hellooww", "Haii, ada yang bisa aku bantu?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Dah", "Dadah", "Bye", "Byee", "Good bye", "Selamat tinggal", "Sampai jumpa"],
+         "responses": ["Bye!", "Dadahh!", "Good bye!", "Dahh, semoga harimu menyenangkan yaa!", "Sampai jumpa lagi!"],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "Terima kasih", "Makasih", "Terima kasih banyak."],
+         "responses": ["Senang bisa membantu!", "Kapan pun!", "Dengan senang hati."],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Maaf, aku ga ngerti yang kamu maksud 😔", "Tolong berikan saya informasi yang lebih jelas 🥺", "Oops, kamu ga sengaja yaa?"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["Kamu bisa apa?", "Kamu bisa ngapain?", "Kamu bisa bantu apa?", "Apa yang bisa kamu bantu?", "Tolong bantuin", "Tolong saya", "Help"],
+         "responses": ["Halo, aku bisa bantu kamu untuk pertanyaan seputar rekomendasi Paket Wisata dan juga Asuransi Perjalanan.", "Silahkan tanyakan padaku soal rekomendasi Paket Wisata dan juga Asuransi Perjalanan yaa."],
+         "context": [""]
+        },
+        {"tag": "penjelasan_asuransi",
+         "patterns": ["Apa itu asuransi?", "Pengertian asuransi", "Definisi asuransi", "Penjelasan tentang asuransi"],
+         "responses": ["Jadi asuransi ini merupakan suatu kesepakatan antara dua pihak atau lebih untuk memberikan jaminan akan suatu hal yang dijanjikan."],
+         "context": [""]
+        },
+        {"tag": "asuransi_perjalanan",
+         "patterns": ["Asuransi perjalanan", "Apa itu asuransi perjalanan?", "Travel insurance", "Apa itu Travel Insurance", "Definisi asuransi perjalanan","Penjelasan tentang asuransi perjalanan", "Pengertian asuransi perjalanan"],
+         "responses": ["Asuransi Perjalanan (Travel Insurance) adalah sebuah jenis asuransi yang diperuntukkan untuk memberikan perlindungan selama Anda bepergian. Asuransi perjalanan (travel insurance) memang tidak masuk ke dalam jenis asuransi yang wajib dimiliki. Asuransi ini diutamakan untuk Anda yang memang suka melakukan perjalanan baik keluar kota sampai keluar negeri dan fungsinya yang hanya melindungi ketika akan melakukan perjalanan saja."],
+         "context": [""]
+        },
+        {"tag": "kenapa_harus_ada_asuransi_perjalanan",
+         "patterns": ["Kenapa wajib memiliki asuransi perjalanan (Travel Insurance)?", "Kenapa harus ada asuransi perjalanan?", "Kenapa harus punya asuransi perjalanan?", "Kenapa harus punya asuransi perjalanan?", "Apakah wajib punya asuransi perjalanan?" ],
+         "responses": ["Telah banyak negara yang mewajibkan kepada para turisnya untuk wajib memiliki asuransi perjalanan (travel insurance). Jika tidak memilikinya, para turis tidak akan diperbolehkan masuk."],
+         "context": [""]
+        },
+        {"tag": "contoh_negara",
+         "patterns": ["Contoh negaranya?", "Contoh negara", "Negara apa saja?", "Negara yang wajib punya asuransi perjalanan", "Contoh negaranya"],
+         "responses": ["Contohnya negara-negara di Amerika Eropa dan bahkan Asia yang sudah memberlakukan aturan wajib memiliki asuransi perjalanan ini ketika akan mengunjungi negaranya. Jadi jika ingin perjalanan Anda nyaman, lancar dan terlindungi maka terdaftar menjadi permilik asuransi perjalanan tentu sangat disarankan."],
+         "context": [""]
+        },
+        {"tag": "pharmacy_search",
+         "patterns": ["Find me a pharmacy", "Find pharmacy", "List of pharmacies nearby", "Locate pharmacy", "Search pharmacy" ],
+         "responses": ["Please provide pharmacy name"],
+         "context": ["search_pharmacy_by_name"]
+        },
+        {"tag": "search_pharmacy_by_name",
+         "patterns": [],
+         "responses": ["Loading pharmacy details"],
+         "context": [""]
+        },
+        {"tag": "hospital_search",
+         "patterns": ["Lookup for hospital", "Searching for hospital to transfer patient", "I want to search hospital data", "Hospital lookup for patient", "Looking up hospital details" ],
+         "responses": ["Please provide hospital name or location"],
+         "context": ["search_hospital_by_params"]
+        },
+        {"tag": "search_hospital_by_params",
+         "patterns": [],
+         "responses": ["Please provide hospital type"],
+         "context": ["search_hospital_by_type"]
+        },
+        {"tag": "search_hospital_by_type",
+         "patterns": [],
+         "responses": ["Loading hospital details"],
+         "context": [""]
+        }
+   ]
+}
