@@ -104,6 +104,7 @@ print(history.history.keys())
 loss_train = history.history['loss']
 loss_val = history.history['val_loss']
 epochs = range(200)
+%matplotlib inline
 plt.plot(epochs, loss_train, 'g', label='Training loss')
 plt.plot(epochs, loss_val, 'b', label='validation loss')
 plt.title('Training and Validation loss')
