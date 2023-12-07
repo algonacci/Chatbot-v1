@@ -1,0 +1,664 @@
+{
+       "intents": [
+              {
+                     "tag": "Greeting",
+                     "patterns": [
+                            "hallo",
+                            "hai",
+                            "halo",
+                            "hei",
+                            "hi",
+                            "hy",
+                            "pagi",
+                            "morning",
+                            "siang",
+                            "afternoon",
+                            "sore",
+                            "malam",
+                            "kawan"
+                     ],
+                     "responses": [
+                            "Hai! Chatbot di sini. Mau tau informasi tentang apa nih?",
+                            "Halo! Saya Chatbot, salam kenal ya! Mau tau tentang UMKM, kan?",
+                            "Helo! Ini Chatbot. Lagi kepo tentang UMKM ya?"
+                     ]
+              },
+              {
+                     "tag": "Goodbye",
+                     "patterns": [
+                            "Dah",
+                            "Dadah",
+                            "Bye",
+                            "Byee",
+                            "Good bye",
+                            "Selamat tinggal",
+                            "Sampai jumpa",
+                            "Bai",
+                            "See you"
+                     ],
+                     "responses": [
+                            "Bye!",
+                            "Dadahh!",
+                            "Good bye!",
+                            "Dahh, semoga harimu menyenangkan yaa!",
+                            "Sampai jumpa lagi!",
+                            "See u! Senang bisa membantu"
+                     ]
+              },
+              {
+                     "tag": "Chatbot",
+                     "patterns": [
+                            "Apa itu Chatbot?",
+                            "Siapa Chatbot?"
+                     ],
+                     "responses": [
+                            "Chatbot adalah aplikasi chatbot informasi tentang UMKM",
+                            "Chatbot itu adalah teman informasi kamu tentang UMKM!"
+                     ]
+              },
+              {
+                     "tag": "Pencipta_Chatbot",
+                     "patterns": [
+                            "Siapa pembuatmu?",
+                            "Chatbot, yang buat kamu siapa sih?",
+                            "Siapa penciptamu, Chatbot?"
+                     ],
+                     "responses": [
+                            "Chatbot diciptakan oleh mahasiswa dan mahasiswi dari program Kampus Merdeka yang memiliki ide kreatif dan semangat team yang luar biasa walaupun banyak rintangan dan drama tapi mereka berhasil menciptakan saya saat ini",
+                            "Pembuat Chatbot dari kalangan mahasiswa dan mahasiswi lho!",
+                            "Penciptaku berasal dari seorang mahasiswa yang kreatif, sehingga saya bisa aktif saat ini!"
+                     ]
+              },
+              {
+                     "tag": "Terimakasih",
+                     "patterns": [
+                            "Thanks",
+                            "Thank you",
+                            "Terima kasih",
+                            "Makasih",
+                            "Terima kasih banyak"
+                     ],
+                     "responses": [
+                            "Dengan senang hati :)",
+                            "Sama-sama yaa"
+                     ]
+              },
+              {
+                     "tag": "None",
+                     "patterns": [],
+                     "responses": [
+                            "Mohon maaf saya belum mengerti. saya akan mempelajarinya lagi."
+                     ]
+              },
+              {
+                     "tag": "one",
+                     "patterns": [],
+                     "responses": [
+                            "Mohon maaf saya belum mengerti. saya akan mempelajarinya lagi."
+                     ]
+              },
+              {
+                     "tag": "UU PP No 7 Tahun 2021",
+                     "patterns": [
+                            "Apa isi UU PP No 7 Tahun 2021",
+                            "Apa yang termuat dalam Undang-Undang Peraturan Pemerintah (PP) Nomor 7 Tahun 2021?",
+                            "Mohon berikan informasi mengenai isi dari UU PP No 7 Tahun 2021.",
+                            "Sampaikan rincian tentang UU PP No 7 Tahun 2021.",
+                            "Apa yang dapat Anda sampaikan mengenai konten UU PP No 7 Tahun 2021?"
+                     ],
+                     "responses": [
+                            "Peraturan Yang Berisikan Tentang Kemudahan, Pelindungan, Dan Pemberdayaan Koperasi Dan Usaha Mikro, Kecil, Dan MenengahnTerdiri Dari Dari 143 Pasal Dan 10 BabnBab 1 = Pasal 1-2 Ketentuan UmumnBab 2 = Pasal 3-34 Kemudahan, Pelindungan, Dan Pemberdayaan KoperasinBab 3 = Pasal 35-101 Kemudahan, Pelindungan, Dan Pemberdayaan Usaha Mikro Dan Usaha Kecil.nBab 4 = Pasal 102 – 123 KemitraannBab 5 = Pasal 124 – 127 Kemudahan Dan InsentifnBab 6  = Pasal 128 – 131 Penyediaan Pembiyaan Bagi Usaha Mikro Dan Usaha KecilnBab 7 = Pasal 132 – 138 Penyelenggaraan InkurasinBab  8 = Pasal 139 Pengalokasian Dana Alokasi KhususnBab  9 = Pasal 140 Ketentuan PeralihannBab 10 = Pasal 141-143 Ketentuan Penutup"
+                     ]
+              },
+              {
+                     "tag": "UU PP No 7 Tahun 2021 Pasal 1",
+                     "patterns": [
+                            "Apa isi UU PP No 7 Tahun 2021 Pasal 1?",
+                            "Mohon berikan informasi mengenai isi dari UU PP No 7 Tahun 2021 Pasal 1.",
+                            "Sampaikan rincian tentang UU PP No 7 Tahun 2021 Pasal 1.",
+                            "Apa yang dapat Anda sampaikan mengenai konten UU PP No 7 Tahun 2021 Pasal 1?"
+                     ],
+                     "responses": [
+                            "isi UU PP No 7 Tahun 2021 Pasal 1 Menyatakan Bahwa Dalam Peraturan Pernerintah ini yang dimaksud dengan: n1.Koperasi Adalah Badan Usaha Yang Beranggotakan Orang Seorang Atau Badan Hukum Koperasi Dengan Melandaskan Kegiatannya Berdasaikan Prinsip Koperasi Sekaligus Sebagai Gerakan Ekonomi Rakyat Yang Berdasar Atas Asas Kekeluargaan.n2. Usaha Mikro adalah usaha procluktif milik orang perorangan danf atau badan usaha perorangan yang memenuhi kriteria Usaha Mikro sebagaimana diatui daiam Peraturan Pemerintah ini.n3. Usaha Kecil adalah usaha ekonomi produktif yang berdiri sendiri, yang dilakukan oleh orang perorangan atau badan usaha yang bukan merupakan anak perusahaan atau bukan cabang perusahaan yang dimiliki, dikuasai, atau menjadi bagian baik langsung maupun tidak langsung dari Usaha Menengah atau usaha besar yang memenuhi kriteria Usaha Kecil sebagaimana dimaksud dalam Peraturan Pemerintah ini.n4. Usaha Menengah adalah usaha ekonomi produktif yang berdiri sendiri, yang dilakukan oleh orang perorangan atau badan usaha yang bukan merupakan anak perusahaan atau cabang perusahaan yang dimiliki, dikuasai, atau menjadi bagian baik langsung maupun tidak langsung dengan Usaha Kecil atau usaha besar yang memenuhi kriteria Usaha Menengah sebagaimana diatur dalam Peraturan Pemerintah ini. n5. Pemerintah Pusat adalah Presiden Republik Indonesia yang memegang kekuasaan pemerintahan negara Republik Indonesia yang dibantu oleh Wakil Presiden dan menteri sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.n6. Pemerintah Daerah adalah kepala daerah sebagai unsur penyelenggara pemerintahan daerah yang memimpin pelaksanaan urusan pemerintahan yang menjadi kewenangan daerah otonom. n7. Prinsip Syariah adalah prinsip hukum Islam dalam kegiatan perkoperasian berdasarkan fatwa yang dikeluarkan oleh lembaga yang memiliki kewenangan dalam penetapan fatwa di bidang syariah. n8. Kemitraan dengan Pola Rantai Pasok adalah kerja sama antar usaha baik mikro, kecil, menengah dan besar yang memiliki ketergantungan dalam aliran barang dan jasa yang mengubah bahan mentah menjadi produk dalam upaya yang efisien dan ekonomis mencakup berbagai proses dari produksi, pengembangan produk dan jasa, sistem informasi, serta pengemasan produk atau penghantaran jasa kepada konsumen. n9. Dana Alokasi Khusus yang disingkat DAK adalah dana yang bersumber dari anggaran pendapatan dan belanja negara kepada daerah tertentu dengan tujuan untuk membantu mendanai kegiatan khusus yang merupakan urusan daerah dan sesuai dengan prioritas nasional. n10. Perizinan Berusaha adalah legalitas yang diberikan kepada Pelaku Usaha untuk memulai dan menjalankan usaha dan/atau kegiatannya. n11. Inkubasi adalah suatu proses pembinaan, pendampingan, dan pengembangan yang diberikan oleh lembaga inkubator kepada peserta inkubasi (tenant). n12. Dinas adalah dinas yang menyelenggarakan urusan pemerintahan daerah di bidang Koperasi dan Usaha Mikro, Kecil dan Menengah. n13. Menteri adalah menteri yang menyelenggarakan urusan pemerintahan di bidang Koperasi dan Usaha Mikro, Kecil, dan Menengah. n14. Kementerian adalah kementerian yang menyelenggarakan urusan pemerintahan di bidang Koperasi dan Usaha Mikro, Kecil, dan Menengah"
+                     ]
+              },
+              {
+                     "tag": "UU PP No 7 Tahun 2021 Pasal 1 Ayat 1",
+                     "patterns": [
+                            "Apa definisi Koperasi?",
+                            "Bagaimana Koperasi dapat dijelaskan?",
+                            "Apa yang dimaksud dengan Koperasi?",
+                            "Sebutkan prinsip-prinsip yang mendasari kegiatan Koperasi?",
+                            "Apa yang menjadi dasar kegiatan Koperasi?",
+                            "Apa definisi koperasi?",
+                            "Bagaimana koperasi didefinisikan?",
+                            "Jelaskan koperasi.",
+                            "Apa yang dimaksud dengan koperasi?",
+                            "Apa isi Pasal 1 Ayat 1 UU PP No 7 Tahun 2021?",
+                            "Bagaimana Pasal 1 Ayat 1 UU PP No 7 Tahun 2021 dijelaskan?",
+                            "Mohon jelaskan isi Pasal 1 Ayat 1 dari UU PP No 7 Tahun 2021."
+                     ],
+                     "responses": [
+                            "Koperasi adalah badan usaha yang beranggotakan orang nseorang atau badan hukum Koperasi dengan melandaskan nkegiatannya berdasarkan prinsip Koperasi sekaligus nsebagai gerakan ekonomi rakyat yang berdasar atas asas nkekeluargaan."
+                     ]
+              },
+              {
+                     "tag": "Jumlah Ayat UU PP No 7 Tahun 2021 Pasal 1",
+                     "patterns": [
+                            "Berapa jumlah ayat dalam Pasal 1 UU PP No 7 Tahun 2021?",
+                            "Ada berapa ayat dalam Pasal 1 UU PP No 7 Tahun 2021?"
+                     ],
+                     "responses": [
+                            "Jumlah Ayat UU PP No 7 Tahun 2021 Pasal 1 sebanyak 14 ayat"
+                     ]
+              },
+              {
+                     "tag": "UU PP No 7 Tahun 2021 Pasal 1 Ayat 2",
+                     "patterns": [
+                            "Apa definisi Usaha Mikro?",
+                            "Bagaimana Usaha Mikro dapat dijelaskan?",
+                            "Apa yang dimaksud dengan Usaha Mikro?",
+                            "Sebutkan prinsip-prinsip yang mendasari kegiatan Usaha Mikro?",
+                            "Apa yang menjadi dasar kegiatan Usaha Mikro?",
+                            "Apa isi Pasal 1 Ayat 2 UU PP No 7 Tahun 2021?",
+                            "Bagaimana Pasal 1 Ayat 2 UU PP No 7 Tahun 2021 dijelaskan?",
+                            "Mohon jelaskan isi Pasal 1 Ayat 2 dari UU PP No 7 Tahun 2021."
+                     ],
+                     "responses": [
+                            "Usaha Mikro adalah usaha produktif milik orang nperorangan dan/atau badan usaha perorangan yang nmemenuhi kriteria Usaha Mikro sebagaimana diatur dalam nPeraturan Pemerintah ini."
+                     ]
+              },
+              {
+                     "tag": "UU PP No 7 Tahun 2021 Pasal 1 Ayat 3",
+                     "patterns": [
+                            "Apa definisi Usaha Kecil?",
+                            "Bagaimana Usaha Kecil dapat dijelaskan?",
+                            "Apa yang dimaksud dengan Usaha Kecil?",
+                            "Sebutkan prinsip-prinsip yang mendasari kegiatan Usaha Kecil?",
+                            "Apa yang menjadi dasar kegiatan Usaha Kecil?",
+                            "Apa isi Pasal 1 Ayat 3 UU PP No 7 Tahun 2021?",
+                            "Bagaimana Pasal 1 Ayat 3 UU PP No 7 Tahun 2021 dijelaskan?",
+                            "Mohon jelaskan isi Pasal 1 Ayat 3 dari UU PP No 7 Tahun 2021."
+                     ],
+                     "responses": [
+                            "Usaha Kecil adalah usaha ekonomi produktif yang berdiri nsendiri, yang dilakukan oleh orang perorangan atau badan nusaha yang bukan merupakan anak perusahaan atau nbukan cabang perusahaan yang dimiliki, dikuasai, atau nmenjadi bagian baik langsung maupun tidak langsung dari nUsaha Menengah atau usaha besar yang memenuhi nkriteria Usaha Kecil sebagaimana dimaksud dalam nPeraturan Pemerintah ini."
+                     ]
+              },
+              {
+                     "tag": "UU PP No 7 Tahun 2021 Pasal 1 Ayat 4",
+                     "patterns": [
+                            "Apa definisi Usaha Menengah?",
+                            "Bagaimana Usaha Menengah dapat dijelaskan?",
+                            "Apa yang dimaksud dengan Usaha Menengah?",
+                            "Sebutkan prinsip-prinsip yang mendasari kegiatan Usaha Menengah?",
+                            "Apa yang menjadi dasar kegiatan Usaha Menengah?",
+                            "Apa isi Pasal 1 Ayat 4 UU PP No 7 Tahun 2021?",
+                            "Bagaimana Pasal 1 Ayat 4 UU PP No 7 Tahun 2021 dijelaskan?",
+                            "Mohon jelaskan isi Pasal 1 Ayat 4 dari UU PP No 7 Tahun 2021."
+                     ],
+                     "responses": [
+                            "Usaha Menengah adalah usaha ekonomi produktif yang nberdiri sendiri, yang dilakukan oleh orang perorangan atau nbadan usaha yang bukan merupakan anak perusahaan natau cabang perusahaan yang dimiliki, dikuasai, atau nmenjadi bagian baik langsung maupun tidak langsung ndengan Usaha Kecil atau usaha besar yang memenuhi nkriteria Usaha Menengah sebagaimana diatur dalam nPeraturan Pemerintah ini."
+                     ]
+              },
+              {
+                     "tag": "UU PP No 7 Tahun 2021 Pasal 1 Ayat 5",
+                     "patterns": [
+                            "Apa definisi Pemerintah Pusat?",
+                            "Bagaimana Pemerintah Pusat dapat dijelaskan?",
+                            "Apa yang dimaksud dengan Pemerintah Pusat?",
+                            "Sebutkan prinsip-prinsip yang mendasari kegiatan Pemerintah Pusat?",
+                            "Apa yang menjadi dasar kegiatan Pemerintah Pusat?",
+                            "Apa isi Pasal 1 Ayat 5 UU PP No 7 Tahun 2021?",
+                            "Bagaimana Pasal 1 Ayat 5 UU PP No 7 Tahun 2021 dijelaskan?",
+                            "Mohon jelaskan isi Pasal 1 Ayat 5 dari UU PP No 7 Tahun 2021."
+                     ],
+                     "responses": [
+                            "Pemerintah Pusat adalah Presiden Republik Indonesia nyang memegang kekuasaan pemerintahan negara Republik nIndonesia yang dibantu oleh Wakil Presiden dan menteri nsebagaimana dimaksud dalam Undang-Undang Dasar nNegara Republik Indonesia Tahun 1945."
+                     ]
+              },
+              {
+                     "tag": "UU PP No 7 Tahun 2021 Pasal 1 Ayat 6",
+                     "patterns": [
+                            "Apa definisi Pemerintah Daerah?",
+                            "Bagaimana Pemerintah Daerah dapat dijelaskan?",
+                            "Apa yang dimaksud dengan Pemerintah Daerah?",
+                            "Sebutkan prinsip-prinsip yang mendasari kegiatan Pemerintah Daerah?",
+                            "Apa yang menjadi dasar kegiatan Pemerintah Daerah?",
+                            "Apa isi Pasal 1 Ayat 6 UU PP No 7 Tahun 2021?",
+                            "Bagaimana Pasal 1 Ayat 6 UU PP No 7 Tahun 2021 dijelaskan?",
+                            "Mohon jelaskan isi Pasal 1 Ayat 6 dari UU PP No 7 Tahun 2021."
+                     ],
+                     "responses": [
+                            "Pemerintah Daerah adalah kepala daerah sebagai unsur npenyelenggara pemerintahan daerah yang memimpin npelaksanaan urusan pemerintahan yang menjadi nkewenangan daerah otonom."
+                     ]
+              },
+              {
+                     "tag": "UU PP No 7 Tahun 2021 Pasal 1 Ayat 7",
+                     "patterns": [
+                            "Apa definisi Prinsip Syariah?",
+                            "Bagaimana Prinsip Syariah dapat dijelaskan?",
+                            "Apa yang dimaksud dengan Prinsip Syariah?",
+                            "Sebutkan prinsip-prinsip yang mendasari kegiatan Prinsip Syariah?",
+                            "Apa yang menjadi dasar kegiatan Prinsip Syariah?",
+                            "Apa isi Pasal 1 Ayat 7 UU PP No 7 Tahun 2021?",
+                            "Bagaimana Pasal 1 Ayat 7 UU PP No 7 Tahun 2021 dijelaskan?",
+                            "Mohon jelaskan isi Pasal 1 Ayat 7 dari UU PP No 7 Tahun 2021."
+                     ],
+                     "responses": [
+                            "Prinsip Syariah adalah prinsip hukum Islam dalam nkegiatan perkoperasian berdasarkan fatwa yang ndikeluarkan oleh lembaga yang memiliki kewenangan ndalam penetapan fatwa di bidang syariah."
+                     ]
+              },
+              {
+                     "tag": "UU PP No 7 Tahun 2021 Pasal 1 Ayat 8",
+                     "patterns": [
+                            "Apa definisi Kemitraan dengan Pola Rantai Pasok?",
+                            "Bagaimana Kemitraan dengan Pola Rantai Pasok dapat dijelaskan?",
+                            "Apa yang dimaksud dengan Kemitraan dengan Pola Rantai Pasok?",
+                            "Sebutkan prinsip-prinsip yang mendasari kegiatan Kemitraan dengan Pola Rantai Pasok?",
+                            "Apa yang menjadi dasar kegiatan Kemitraan dengan Pola Rantai Pasok?",
+                            "Apa isi Pasal 1 Ayat 8 UU PP No 7 Tahun 2021?",
+                            "Bagaimana Pasal 1 Ayat 8 UU PP No 7 Tahun 2021 dijelaskan?",
+                            "Mohon jelaskan isi Pasal 1 Ayat 8 dari UU PP No 7 Tahun 2021."
+                     ],
+                     "responses": [
+                            "Kemitraan dengan Pola Rantai Pasok adalah kerja sama nantar usaha baik mikro, kecil, menengah dan besar yang nmemiliki ketergantungan dalam aliran barang dan jasa nyang mengubah bahan mentah menjadi produk dalam nupaya yang efisien dan ekonomis mencakup berbagai nproses dari produksi, pengembangan produk dan jasa, nsistem informasi, serta pengemasan produk atau npenghantaran jasa kepada konsumen."
+                     ]
+              },
+              {
+                     "tag": "UU PP No 7 Tahun 2021 Pasal 1 Ayat 9",
+                     "patterns": [
+                            "Apa definisi Dana Alokasi Khusus (DAK)?",
+                            "Bagaimana Dana Alokasi Khusus (DAK) dapat dijelaskan?",
+                            "Apa yang dimaksud dengan Dana Alokasi Khusus (DAK)?",
+                            "Sebutkan prinsip-prinsip yang mendasari kegiatan Dana Alokasi Khusus (DAK)?",
+                            "Apa yang menjadi dasar kegiatan Dana Alokasi Khusus (DAK)?",
+                            "Apa isi Pasal 1 Ayat 9 UU PP No 7 Tahun 2021?",
+                            "Bagaimana Pasal 1 Ayat 9 UU PP No 7 Tahun 2021 dijelaskan?",
+                            "Mohon jelaskan isi Pasal 1 Ayat 9 dari UU PP No 7 Tahun 2021."
+                     ],
+                     "responses": [
+                            "Dana Alokasi Khusus yang disingkat DAK adalah dana nyang bersumber dari anggaran pendapatan dan belanja nnegara kepada daerah tertentu dengan tujuan untuk nmembantu mendanai kegiatan khusus yang merupakan nurusan daerah dan sesuai dengan prioritas nasional."
+                     ]
+              },
+              {
+                     "tag": "UU PP No 7 Tahun 2021 Pasal 1 Ayat 10",
+                     "patterns": [
+                            "Apa definisi Perizinan Berusaha?",
+                            "Bagaimana Perizinan Berusaha dapat dijelaskan?",
+                            "Apa yang dimaksud dengan Perizinan Berusaha?",
+                            "Sebutkan prinsip-prinsip yang mendasari kegiatan Perizinan Berusaha?",
+                            "Apa yang menjadi dasar kegiatan Perizinan Berusaha?",
+                            "Apa isi Pasal 1 Ayat 10 UU PP No 7 Tahun 2021?",
+                            "Bagaimana Pasal 1 Ayat 10 UU PP No 7 Tahun 2021 dijelaskan?",
+                            "Mohon jelaskan isi Pasal 1 Ayat 10 dari UU PP No 7 Tahun 2021."
+                     ],
+                     "responses": [
+                            "Perizinan Berusaha adalah legalitas yang diberikan kepada nPelaku Usaha untuk memulai dan menjalankan usaha ndan/atau kegiatannya."
+                     ]
+              },
+              {
+                     "tag": "UU PP No 7 Tahun 2021 Pasal 1 Ayat 11",
+                     "patterns": [
+                            "Apa definisi Inkubasi?",
+                            "Bagaimana Inkubasi dapat dijelaskan?",
+                            "Apa yang dimaksud dengan Inkubasi?",
+                            "Sebutkan prinsip-prinsip yang mendasari kegiatan Inkubasi?",
+                            "Apa yang menjadi dasar kegiatan Inkubasi?",
+                            "Apa isi Pasal 1 Ayat 11 UU PP No 7 Tahun 2021?",
+                            "Bagaimana Pasal 1 Ayat 11 UU PP No 7 Tahun 2021 dijelaskan?",
+                            "Mohon jelaskan isi Pasal 1 Ayat 11 dari UU PP No 7 Tahun 2021."
+                     ],
+                     "responses": [
+                            "Inkubasi adalah suatu proses pembinaan, pendampingan, ndan pengembangan yang diberikan oleh lembaga ninkubator kepada peserta inkubasi (tenant)."
+                     ]
+              },
+              {
+                     "tag": "UU PP No 7 Tahun 2021 Pasal 1 Ayat 12",
+                     "patterns": [
+                            "Apa definisi Dinas?",
+                            "Bagaimana Dinas dapat dijelaskan?",
+                            "Apa yang dimaksud dengan Dinas?",
+                            "Sebutkan prinsip-prinsip yang mendasari kegiatan Dinas?",
+                            "Apa yang menjadi dasar kegiatan Dinas?",
+                            "Apa isi Pasal 1 Ayat 12 UU PP No 7 Tahun 2021?",
+                            "Bagaimana Pasal 1 Ayat 12 UU PP No 7 Tahun 2021 dijelaskan?",
+                            "Mohon jelaskan isi Pasal 1 Ayat 12 dari UU PP No 7 Tahun 2021."
+                     ],
+                     "responses": [
+                            "Dinas adalah dinas yang menyelenggarakan urusan npemerintahan daerah di bidang Koperasi dan Usaha Mikro, nKecil dan Menengah."
+                     ]
+              },
+              {
+                     "tag": "UU PP No 7 Tahun 2021 Pasal 1 Ayat 13",
+                     "patterns": [
+                            "Apa definisi Menteri?",
+                            "Bagaimana Menteri dapat dijelaskan?",
+                            "Apa yang dimaksud dengan Menteri?",
+                            "Sebutkan prinsip-prinsip yang mendasari kegiatan Menteri?",
+                            "Apa yang menjadi dasar kegiatan Menteri?",
+                            "Apa isi Pasal 1 Ayat 13 UU PP No 7 Tahun 2021?",
+                            "Bagaimana Pasal 1 Ayat 13 UU PP No 7 Tahun 2021 dijelaskan?",
+                            "Mohon jelaskan isi Pasal 1 Ayat 13 dari UU PP No 7 Tahun 2021."
+                     ],
+                     "responses": [
+                            "Menteri adalah menteri yang menyelenggarakan urusan npemerintahan di bidang Koperasi dan Usaha Mikro, Kecil, ndan Menengah."
+                     ]
+              },
+              {
+                     "tag": "UU PP No 7 Tahun 2021 Pasal 1 Ayat 14",
+                     "patterns": [
+                            "Apa definisi Kementerian?",
+                            "Bagaimana Kementerian dapat dijelaskan?",
+                            "Apa yang dimaksud dengan Kementerian?",
+                            "Sebutkan prinsip-prinsip yang mendasari kegiatan Kementerian?",
+                            "Apa yang menjadi dasar kegiatan Kementerian?",
+                            "Apa isi Pasal 1 Ayat 14 UU PP No 7 Tahun 2021?",
+                            "Bagaimana Pasal 1 Ayat 14 UU PP No 7 Tahun 2021 dijelaskan?",
+                            "Mohon jelaskan isi Pasal 1 Ayat 14 dari UU PP No 7 Tahun 2021."
+                     ],
+                     "responses": [
+                            "Kementerian adalah kementerian yang menyelenggarakan nurusan pemerintahan di bidang Koperasi dan Usaha nMikro, Kecil, dan Menengah."
+                     ]
+              },
+              {
+                     "tag": "UU PP No 7 Tahun 2021 Pasal 2",
+                     "patterns": [
+                            "Apa isi UU PP No 7 Tahun 2021 Pasal 2?",
+                            "Mohon berikan informasi mengenai isi dari UU PP No 7 Tahun 2021 Pasal 2.",
+                            "Sampaikan rincian tentang UU PP No 7 Tahun 2021 Pasal 2.",
+                            "Apa yang dapat Anda sampaikan mengenai konten UU PP No 7 Tahun 2021 Pasal 2?"
+                     ],
+                     "responses": [
+                            "UU PP No 7 Tahun 2021 Pasal 2 Berbunyi (1) Pemerintah Pusat dan Pemerintah Daerah memberikan kemudahan, pelindungan, dan pemberdayaan bagi Koperasi dan Usaha Mikro, Kecil, dan Menengah. n(2) Kemudahan, pelindungan, dan pemberdayaan bagi Koperasi dan Usaha Mikro, Kecil, dan Menengah sebagaimana dimaksud pada ayat (1) dilakukan melalui:n a. pembinaan; dan b. pemberian fasilitas."
+                     ]
+              },
+              {
+                     "tag": "UU PP No 7 Tahun 2021 Pasal 3",
+                     "patterns": [
+                            "Apa isi UU PP No 7 Tahun 2021 Pasal 3?",
+                            "Mohon berikan informasi mengenai isi dari UU PP No 7 Tahun 2021 Pasal 3.",
+                            "Sampaikan rincian tentang UU PP No 7 Tahun 2021 Pasal 3.",
+                            "Apa yang dapat Anda sampaikan mengenai konten UU PP No 7 Tahun 2021 Pasal 3?"
+                     ],
+                     "responses": [
+                            "UU PP No 7 Tahun 2021 Pasal 3 Berbunyi (1) Koperasi primer dibentuk paling sedikit oleh 9 (sembilan) norang.n(2) Koperasi sekunder dibentuk paling sedikit oleh 3 (tiga) nKoperasi. "
+                     ]
+              },
+              {
+                     "tag": "UU PP No 7 Tahun 2021 Pasal 4",
+                     "patterns": [
+                            "Apa isi UU PP No 7 Tahun 2021 Pasal 4?",
+                            "Mohon berikan informasi mengenai isi dari UU PP No 7 Tahun 2021 Pasal 4.",
+                            "Sampaikan rincian tentang UU PP No 7 Tahun 2021 Pasal 4.",
+                            "Apa yang dapat Anda sampaikan mengenai konten UU PP No 7 Tahun 2021 Pasal 4?"
+                     ],
+                     "responses": [
+                            "UU PP No 7 Tahun 2021 Pasal 4 Berbunyi Koperasi memperoleh status badan hukum pada tanggal nditerbitkan surat keputusan menteri yang menyelenggarakan nurusan pemerintahan di bidang hukum dan hak asasi nmanusia tentang pengesahan badan hukum Koperasi. "
+                     ]
+              },
+              {
+                     "tag": "UU PP No 7 Tahun 2021 Pasal 5",
+                     "patterns": [
+                            "Apa isi UU PP No 7 Tahun 2021 Pasal 5?",
+                            "Mohon berikan informasi mengenai isi dari UU PP No 7 Tahun 2021 Pasal 5.",
+                            "Sampaikan rincian tentang UU PP No 7 Tahun 2021 Pasal 5.",
+                            "Apa yang dapat Anda sampaikan mengenai konten UU PP No 7 Tahun 2021 Pasal 5?"
+                     ],
+                     "responses": [
+                            "UU PP No 7 Tahun 2021 Pasal 5 Berbunyi Pembentukan Koperasi dilakukan dengan akta pendirian yang nmemuat anggaran dasar."
+                     ]
+              },
+              {
+                     "tag": "UU PP No 7 Tahun 2021 Pasal 6",
+                     "patterns": [
+                            "Apa isi UU PP No 7 Tahun 2021 Pasal 6?",
+                            "Mohon berikan informasi mengenai isi dari UU PP No 7 Tahun 2021 Pasal 6.",
+                            "Sampaikan rincian tentang UU PP No 7 Tahun 2021 Pasal 6.",
+                            "Apa yang dapat Anda sampaikan mengenai konten UU PP No 7 Tahun 2021 Pasal 6?"
+                     ],
+                     "responses": [
+                            "UU PP No 7 Tahun 2021 Pasal 6 Berbunyi (1) Dalam pembentukan Koperasi sebagaimana dimaksud ndalam Pasal 5 diawali dengan rapat pembentukan nKoperasi yang dihadiri oleh pendiri.n(2) Rapat pembentukan Koperasi sebagaimana dimaksud npada ayat (1) dapat dilakukan secara daring dan/atau nluring.n(3) Hasil rapat pembentukan sebagaimana dimaksud pada nayat (2) dinyatakan dengan notulen atau berita acara yang nditandatangani oleh pimpinan rapat, dalam bentuk paraf natau tanda tangan dengan tinta basah atau elektronik."
+                     ]
+              },
+              {
+                     "tag": "UU PP No 7 Tahun 2021 Pasal 7",
+                     "patterns": [
+                            "Apa isi UU PP No 7 Tahun 2021 Pasal 7?",
+                            "Mohon berikan informasi mengenai isi dari UU PP No 7 Tahun 2021 Pasal 7.",
+                            "Sampaikan rincian tentang UU PP No 7 Tahun 2021 Pasal 7.",
+                            "Apa yang dapat Anda sampaikan mengenai konten UU PP No 7 Tahun 2021 Pasal 7?"
+                     ],
+                     "responses": [
+                            "UU PP No 7 Tahun 2021 Pasal 7 Berbunyi Pemerintah Pusat dan Pemerintah Daerah melakukan npembinaan dan pendampingan bagi kelompok masyarakat nyang akan membentuk Koperasi."
+                     ]
+              },
+              {
+                     "tag": "UU PP No 7 Tahun 2021 Pasal 8",
+                     "patterns": [
+                            "Apa isi UU PP No 7 Tahun 2021 Pasal 8?",
+                            "Mohon berikan informasi mengenai isi dari UU PP No 7 Tahun 2021 Pasal 8.",
+                            "Sampaikan rincian tentang UU PP No 7 Tahun 2021 Pasal 8.",
+                            "Apa yang dapat Anda sampaikan mengenai konten UU PP No 7 Tahun 2021 Pasal 8?"
+                     ],
+                     "responses": [
+                            "UU PP No 7 Tahun 2021 Pasal 8 Berbunyi (1) Rapat anggota dapat dilaksanakan secara daring dan/atau nluring.n(2) Hasil pelaksanaan rapat anggota sebagaimana dimaksud npada ayat (1) wajib disampaikan kepada Kementerian ndan/atau Dinas melalui sistem pelaporan secara nelektronik.n(3) Dalam hal pelaporan hasil pelaksanaan rapat anggota ntidak dapat dilakukan melalui sistem pelaporan secara nelektronik sebagaimana dimaksud pada ayat (2), hasil npelaksanaan rapat anggota disampaikan secara manual.n(4) Kementerian dan/atau Dinas memfasilitasi kemudahan npelaporan hasil pelaksanaan rapat anggota sebagaimana ndimaksud pada ayat (2)."
+                     ]
+              },
+              {
+                     "tag": "UU PP No 7 Tahun 2021 Pasal 9",
+                     "patterns": [
+                            "Apa isi UU PP No 7 Tahun 2021 Pasal 9?",
+                            "Mohon berikan informasi mengenai isi dari UU PP No 7 Tahun 2021 Pasal 9.",
+                            "Sampaikan rincian tentang UU PP No 7 Tahun 2021 Pasal 9.",
+                            "Apa yang dapat Anda sampaikan mengenai konten UU PP No 7 Tahun 2021 Pasal 9?"
+                     ],
+                     "responses": [
+                            "UU PP No 7 Tahun 2021 Pasal 9 Berbunyi (1) Koperasi yang melaksanakan kegiatan usaha simpan npinjam serta usaha simpan pinjam dan pembiayaan nsyariah wajib menyampaikan laporan kepada Kementerian ndan/atau Dinas secara periodik dan sewaktu- waktu.n(2) Laporan sebagaimana dimaksud pada ayat (1) ndisampaikan melalui sistem pelaporan secara elektronik.n(3) Sistem pelaporan secara elektronik sebagaimana ndimaksud pada ayat (2) dibuat oleh Kementerian.n(4) Dinas dapat membuat sistem pelaporan secara elektronik nsebagaimana dimaksud pada ayat (2) dengan nmemperhatikan ketentuan mengenai sistem pelaporan nsecara elektronik yang ditetapkan oleh Kementerian.n(5) Dalam hal sistem pelaporan secara elektronik belum nterbentuk, Koperasi menyampaikan laporan sebagaimana ndimaksud pada ayat (2) secara manual."
+                     ]
+              },
+              {
+                     "tag": "UU PP No 7 Tahun 2021 Pasal 10",
+                     "patterns": [
+                            "Apa isi UU PP No 7 Tahun 2021 Pasal 10?",
+                            "Mohon berikan informasi mengenai isi dari UU PP No 7 Tahun 2021 Pasal 10.",
+                            "Sampaikan rincian tentang UU PP No 7 Tahun 2021 Pasal 10.",
+                            "Apa yang dapat Anda sampaikan mengenai konten UU PP No 7 Tahun 2021 Pasal 10?"
+                     ],
+                     "responses": [
+                            "UU PP No 7 Tahun 2021 Pasal 10 Berbunyi (1) Usaha Koperasi merupakan usaha yang:na. berkaitan langsung dengan kepentingan anggota; dannb. meningkatkan usaha dan kesejahteraan anggota.n(2) Usaha Koperasi yang berkaitan langsung dengan nkepentingan anggota sebagaimana dimaksud pada ayat (1) nhuruf a dilakukan dengan memperhatikan paling sedikit:na. kebutuhan anggota dan kapasitas Koperasi nb. pengutamaan pemenuhan pelayanan terbaik kepada nanggota untuk mendorong peningkatan loyalitas nanggota;nc. praktik tata kelola usaha yang baik untuk membangun nprofesionalisme dan kepercayaan anggota;nd. kerja sama antar-Koperasi; danne. kerja sama Koperasi dan/atau antar-Koperasi dengan nbadan usaha lain.n(3) Usaha Koperasi untuk meningkatkan usaha dan nkesejahteraan anggota sebagaimana dimaksud pada ayat n(1) huruf b dilakukan dengan memperhatikan paling nsedikit:na. manfaat langsung dan tidak langsung yang ndirasakan/diterima oleh anggota dan/atau masyarakat nyang memanfaatkan pelayanan/bisnis dengan nKoperasi;nb. kerjasama antar-Koperasi; dannc. kemitraan dengan badan usaha lain."
+                     ]
+              },
+              {
+                     "tag": "UU PP No 7 Tahun 2021 Pasal 11",
+                     "patterns": [
+                            "Apa isi UU PP No 7 Tahun 2021 Pasal 11?",
+                            "Mohon berikan informasi mengenai isi dari UU PP No 7 Tahun 2021 Pasal 11.",
+                            "Sampaikan rincian tentang UU PP No 7 Tahun 2021 Pasal 11.",
+                            "Apa yang dapat Anda sampaikan mengenai konten UU PP No 7 Tahun 2021 Pasal 11?"
+                     ],
+                     "responses": [
+                            "UU PP No 7 Tahun 2021 Pasal 11 Berbunyi (1) Kegiatan usaha Koperasi dapat dilaksanakan secara:na. tunggal usaha; ataunb. serba usaha.n(2) Kegiatan usaha Koperasi yang dilaksanakan secara ntunggal usaha sebagaimana dimaksud pada ayat (1) huruf na merupakan Koperasi yang diselenggarakan pada 1 (satu) nbidang atau sektor usaha tertentu.n(3) Kegiatan usaha Koperasi yang dilaksanakan secara serba nusaha sebagaimana dimaksud pada ayat (1) huruf b nmerupakan Koperasi yang diselenggarakan dengan nbeberapa kegiatan usaha pada 1 (satu) atau lebih bidang natau sektor usaha tertentu.n(4) Kegiatan usaha Koperasi sebagaimana dimaksud pada nayat (1) huruf b harus memiliki bidang usaha inti.n(5) Kegiatan usaha Koperasi sebagaimana dimaksud pada nayat (1) diselenggarakan berdasarkan paling sedikit:na. kesamaan usaha;nb. potensi; dannc. kebutuhan anggota.n(6) Kegiatan usaha Koperasi sebagaimana dimaksud pada nayat (1) dapat memiliki dan/atau memanfaatkan platform nteknologi digital untuk mendorong akselerasi dan integrasi nserta daya saing."
+                     ]
+              },
+              {
+                     "tag": "UU PP No 7 Tahun 2021 Pasal 12",
+                     "patterns": [
+                            "Apa isi UU PP No 7 Tahun 2021 Pasal 12?",
+                            "Mohon berikan informasi mengenai isi dari UU PP No 7 Tahun 2021 Pasal 12.",
+                            "Sampaikan rincian tentang UU PP No 7 Tahun 2021 Pasal 12.",
+                            "Apa yang dapat Anda sampaikan mengenai konten UU PP No 7 Tahun 2021 Pasal 12?"
+                     ],
+                     "responses": [
+                            "UU PP No 7 Tahun 2021 Pasal 12 Berbunyi (1) Kelebihan kemampuan pelayanan Koperasi dapat ndigunakan untuk memenuhi kebutuhan masyarakat yang nbukan anggota Koperasi dalam rangka menarik minat nmasyarakat menjadi anggota Koperasi.n(2) Kelebihan kemampuan pelayanan sebagaimana dimaksud npada ayat ( 1) tidak berlaku untuk Koperasi simpan pinjam ndan unit usaha simpan pinjam Koperasi.n(3) Kelebihan kemampuan pelayanan sebagaimana dimaksud npada ayat (1) dihitung oleh pengurus Koperasi secara nperiodik atau pada saat transaksi kegiatan usaha nlangsung.n(4) Pelayanan kepada masyarakat yang bukan anggotansebagaimana dimaksud pada ayat (1) dicatat sebagai ntransaksi bisnis.n(5) Kelebihan kemampuan pelayanan Koperasi sebagaimana ndimaksud pada ayat (1) dilaksanakan dengan berpedoman npada prinsip Koperasi:na. keanggotaan bersifat sukarela dan terbuka;nb. pengelolaan dilaksanakan secara demokratis;nc. pembagian sisa hasil usaha dilakukan secara adil nsebanding dengan besarnya jasa usaha masing-masing anggota;nd. pemberian balas jasa yang terbatas terhadap modal;ne. kemandirian;nf. pendidikan perkoperasian; danng. kerja sama antar-Koperasi."
+                     ]
+              },
+              {
+                     "tag": "UU PP No 7 Tahun 2021 Pasal 13",
+                     "patterns": [
+                            "Apa isi UU PP No 7 Tahun 2021 Pasal 13?",
+                            "Mohon berikan informasi mengenai isi dari UU PP No 7 Tahun 2021 Pasal 13.",
+                            "Sampaikan rincian tentang UU PP No 7 Tahun 2021 Pasal 13.",
+                            "Apa yang dapat Anda sampaikan mengenai konten UU PP No 7 Tahun 2021 Pasal 13?"
+                     ],
+                     "responses": [
+                            "UU PP No 7 Tahun 2021 Pasal 13 Berbunyi (1) Koperasi dapat menjalankan kegiatan usaha berdasarkan nPrinsip Syariah.n(2) Koperasi yang menjalankan kegiatan usaha berdasarkan nPrinsip Syariah sebagaimana dimaksud pada ayat (1) wajib nmencantumkan kata 'Syariah' dalam penamaan Koperasi.n(3) Usaha Koperasi berdasarkan Prinsip Syariah sebagaimana ndimaksud pada ayat (1) hanya dapat dilaksanakan oleh nKoperasi syariah.n(4) Usaha berdasarkan Prinsip Syariah wajib dituangkan ndalam anggaran dasar Koperasi.n(5) Koperasi syariah didirikan, dikelola, dan menjalankan nkegiatan usaha berdasarkan Prinsip Syariah sesuai ndengan fatwa syariah yang dikeluarkan oleh Majelis Ulama nIndonesia.n(6) Koperasi syariah harus melaksanakan kegiatan usaha nyang tidak bertentangan dengan Prinsip Syariah."
+                     ]
+              },
+              {
+                     "tag": "UU PP No 7 Tahun 2021 Pasal 14",
+                     "patterns": [
+                            "Apa isi UU PP No 7 Tahun 2021 Pasal 14?",
+                            "Mohon berikan informasi mengenai isi dari UU PP No 7 Tahun 2021 Pasal 14.",
+                            "Sampaikan rincian tentang UU PP No 7 Tahun 2021 Pasal 14.",
+                            "Apa yang dapat Anda sampaikan mengenai konten UU PP No 7 Tahun 2021 Pasal 14?"
+                     ],
+                     "responses": [
+                            "UU PP No 7 Tahun 2021 Pasal 14 Berbunyi (1) Koperasi syariah melaksanakan kegiatan usaha syariah nberdasarkan paling sedikit:na. kesamaan usaha;nb. potensi; dan/ataunc. kebutuhan anggota dan masyarakat di bidang industri, nperdagangan, jasa, serta bidang usaha lain.n(2) Usaha Koperasi syariah sebagaimana dimaksud pada ayat n(1) dilaksanakan dengan akad pinjam- meminjam, bagi nhasil, sewa-menyewa, jual beli, dan/atau bentuk lainnya nsesuai dengan Prinsip Syariah.n(3) Koperasi syariah dapat menjalankan fungsi sosial dalam nbentuk baitul maal untuk pemberdayaan sosial ekonomi nanggota dan masyarakat berdasarkan ketentuan peraturan nperundang-undangan."
+                     ]
+              },
+              {
+                     "tag": "UU PP No 7 Tahun 2021 Pasal 15",
+                     "patterns": [
+                            "Apa isi UU PP No 7 Tahun 2021 Pasal 15?",
+                            "Mohon berikan informasi mengenai isi dari UU PP No 7 Tahun 2021 Pasal 15.",
+                            "Sampaikan rincian tentang UU PP No 7 Tahun 2021 Pasal 15.",
+                            "Apa yang dapat Anda sampaikan mengenai konten UU PP No 7 Tahun 2021 Pasal 15?"
+                     ],
+                     "responses": [
+                            "UU PP No 7 Tahun 2021 Pasal 15 Berbunyi (1) Usaha simpan pinjam dan pembiayaan syariah hanya ndapat dilaksanakan oleh:na. Koperasi simpan pinjam dan pembiayaan syariah; ataunb. unit simpan pinjam dan pembiayaan syariah pada nKoperasi syariah.n(2) Usaha simpan pinjam dan pembiayaan syariah oleh nKoperasi syariah dilaksanakan dengan kegiatan sesuai ndengan Prinsip Syariah, meliputi:na. menghimpun dana dari anggota, Koperasi lain, dan nanggotanya dalam bentuk tabungan dengan akad ntitipan, simpanan berjangka dengan akad bagi hasil, ndan/atau bentuk lain;nb. menyalurkan dana kepada anggota, Koperasi lain dan nanggotanya, dalam bentuk pinjaman dengan akad npinjam-meminjam; dannc. menyalurkan dana kepada anggota, Koperasi lain dan nanggotanya, dalam bentuk pembiayaan dengan akad npinjam-meminjam, bagi hasil, sewa-menyewa, jual beli, ndan/atau bentuk lain.n(3) Koperasi yang menjalankan usaha simpan pinjam dan npembiayaan syariah dapat menjalankan fungsi sosial ndalam bentuk baitul maal untuk pemberdayaan sosial nekonomi anggota dan masyarakat sesuai dengan nketentuan peraturan perundang-undangan.n(4) Koperasi yang melaksanakan usaha simpan pinjam dan npembiayaan syariah sebagaimana dimaksud pada ayat (2) ndapat melaksanakan kegiatan usaha secara elektronik."
+                     ]
+              },
+              {
+                     "tag": "UU PP No 7 Tahun 2021 Pasal 16",
+                     "patterns": [
+                            "Apa isi UU PP No 7 Tahun 2021 Pasal 16?",
+                            "Mohon berikan informasi mengenai isi dari UU PP No 7 Tahun 2021 Pasal 16.",
+                            "Sampaikan rincian tentang UU PP No 7 Tahun 2021 Pasal 16.",
+                            "Apa yang dapat Anda sampaikan mengenai konten UU PP No 7 Tahun 2021 Pasal 16?"
+                     ],
+                     "responses": [
+                            "UU PP No 7 Tahun 2021 Pasal 16 Berbunyi Koperasi syariah yang menjalankan fungsi sosial dalam nbentuk baitul maal sebagaimana dimaksud dalam Pasal 14 nayat (3) atau Koperasi yang melaksanakan usaha simpan npinjam dan pembiayaan syariah yang menjalankan fungsi nsosial dalam bentuk baitul maal sebagaimana dimaksud ndalam Pasal 15 ayat (3), melaporkan pelaksanaan fungsi sosial nkepada Kementerian dan/atau kementerian yang nmenyelenggarakan urusan pemerintahan di bidang agama, nBadan Amil Zakat Nasional, dan Badan Wakaf Indonesia. "
+                     ]
+              },
+              {
+                     "tag": "UU PP No 7 Tahun 2021 Pasal 17",
+                     "patterns": [
+                            "Apa isi UU PP No 7 Tahun 2021 Pasal 17?",
+                            "Mohon berikan informasi mengenai isi dari UU PP No 7 Tahun 2021 Pasal 17.",
+                            "Sampaikan rincian tentang UU PP No 7 Tahun 2021 Pasal 17.",
+                            "Apa yang dapat Anda sampaikan mengenai konten UU PP No 7 Tahun 2021 Pasal 17?"
+                     ],
+                     "responses": [
+                            "UU PP No 7 Tahun 2021 Pasal 17 Berbunyi (1) Koperasi syariah wajib mempunyai dewan pengawas nsyariah.n(2) Dewan pengawas syariah sebagaimana dimaksud pada nayat (1) bertugas paling sedikit memberikan nasihat dan nsaran kepada pengurus serta mengawasi kegiatan nKoperasi agar sesuai dengan Prinsip Syariah.n(3) Dewan pengawas syariah sebagaimana dimaksud pada nayat (1) harus memiliki pengetahuan mengenai Prinsip nSyariah."
+                     ]
+              },
+              {
+                     "tag": "UU PP No 7 Tahun 2021 Pasal 18",
+                     "patterns": [
+                            "Apa isi UU PP No 7 Tahun 2021 Pasal 18?",
+                            "Mohon berikan informasi mengenai isi dari UU PP No 7 Tahun 2021 Pasal 18.",
+                            "Sampaikan rincian tentang UU PP No 7 Tahun 2021 Pasal 18.",
+                            "Apa yang dapat Anda sampaikan mengenai konten UU PP No 7 Tahun 2021 Pasal 18?"
+                     ],
+                     "responses": [
+                            "UU PP No 7 Tahun 2021 Pasal 18 Berbunyi (1) Kementerian dan/atau kementerian yang nmenyelenggarakan urusan pemerintahan di bidang agama nmelakukan pembinaan dan pengembangan kapasitas ndewan pengawas syariah pada Koperasi syariah.n(2) Pembinaan dan pengembangan sebagaimana dimaksud npada ayat (1) dilakukan paling sedikit melalui pelatihan ndan/atau bimbingan teknis.n(3) Dalam melaksanakan pembinaan dan pengembangan nsebagaimana dimaksud pada ayat (2), Kementerian ndan/atau kementerian yang menyelenggarakan urusan npemerintahan di bidang agama berkoordinasi dengan nDewan Syariah Nasional - Majelis Ulama Indonesia.n(4) Kementerian dan/atau kementerian yang nmenyelenggarakan urusan pemerintahan di bidang agama nmendelegasikan pelaksanaan pembinaan atau npengembangan kapasitas dewan pengawas syariah nKoperasi syariah kepada gubernur dan/atau bupati/wali nkota berdasarkan wilayah keanggotaan Koperasi."
+                     ]
+              },
+              {
+                     "tag": "UU PP No 7 Tahun 2021 Pasal 19",
+                     "patterns": [
+                            "Apa isi UU PP No 7 Tahun 2021 Pasal 19?",
+                            "Mohon berikan informasi mengenai isi dari UU PP No 7 Tahun 2021 Pasal 19.",
+                            "Sampaikan rincian tentang UU PP No 7 Tahun 2021 Pasal 19.",
+                            "Apa yang dapat Anda sampaikan mengenai konten UU PP No 7 Tahun 2021 Pasal 19?"
+                     ],
+                     "responses": [
+                            "UU PP No 7 Tahun 2021 Pasal 19 Berbunyi Dalam rangka pemberian pelindungan kepada Koperasi, nPemerintah Pusat dan Pemerintah Daerah:na. menetapkan bidang kegiatan ekonomi yang hanya boleh ndiusahakan Koperasi; dannb. menetapkan bidang dan sektor usaha di suatu wilayah nyang telah berhasil diusahakan oleh Koperasi untuk tidak ndiusahakan oleh badan usaha lainnya."
+                     ]
+              },
+              {
+                     "tag": "UU PP No 7 Tahun 2021 Pasal 20",
+                     "patterns": [
+                            "Apa isi UU PP No 7 Tahun 2021 Pasal 20?",
+                            "Mohon berikan informasi mengenai isi dari UU PP No 7 Tahun 2021 Pasal 20.",
+                            "Sampaikan rincian tentang UU PP No 7 Tahun 2021 Pasal 20.",
+                            "Apa yang dapat Anda sampaikan mengenai konten UU PP No 7 Tahun 2021 Pasal 20?"
+                     ],
+                     "responses": [
+                            "UU PP No 7 Tahun 2021 Pasal 20 Berbunyi Selain pelindungan terhadap Koperasi sebagaimana dimaksud ndalam Pasal 19, Pemerintah Pusat dan Pemerintah Daerah ndapat melakukan pemulihan usaha Koperasi dalam kondisi ndarurat tertentu melalui:na. restrukturisasi kredit;nb. rekonstruksi usaha;nc. bantuan modal; dan/ataund. bantuan bentuk lain."
+                     ]
+              },
+              {
+                     "tag": "UU PP No 7 Tahun 2021 Pasal 21",
+                     "patterns": [
+                            "Apa isi UU PP No 7 Tahun 2021 Pasal 21?",
+                            "Mohon berikan informasi mengenai isi dari UU PP No 7 Tahun 2021 Pasal 21.",
+                            "Sampaikan rincian tentang UU PP No 7 Tahun 2021 Pasal 21.",
+                            "Apa yang dapat Anda sampaikan mengenai konten UU PP No 7 Tahun 2021 Pasal 21?"
+                     ],
+                     "responses": [
+                            "UU PP No 7 Tahun 2021 Pasal 21 Berbunyi (1) Dalam melakukan pemberdayaan Koperasi melalui nmenumbuhkan iklim usaha, Pemerintah Pusat dan nPemerintah Daerah menetapkan kebijakan dalam aspek npaling sedikit:na. kelembagaan;nb. produksi;nc. pemasaran;nd. keuangan; danne. inovasi dan teknologi.n(2) Kebijakan pada aspek kelembagaan sebagaimana ndimaksud pada ayat (1) huruf a meningkatkan paling nsedikit:na. kualitas partisipasi anggota Koperasi;nb. kapasitas dan kompetensi sumber daya manusia npengurus, pengawas, dan pengelola;nc. kemampuan manajerial dan tata kelola Koperasi; dannd. kapasitas anggota Koperasi sebagai wirausaha nKoperasi/wira Koperasi melalui Inkubasi.n(3) Kebijakan pada aspek produksi sebagaimana dimaksud npada ayat (1) huruf b paling sedikit:na. meningkatkan teknik produksi dan pengolahan serta nkemampuan manajemen bagi Koperasi;nb. memberikan kemudahan dalam pengadaan sarana dan nprasarana, produksi dan pengolahan, bahan baku, nbahan penolong, dan kemasan bagi Koperasi;nc. mendorong penerapan standardisasi dalam proses nproduksi dan pengolahan; dannd. meningkatkan kemampuan rancang bangun dan nperekayasaan bagi produk anggota Koperasi.n(4) Kebijakan pada aspek pemasaran sebagaimana dimaksud npada ayat (1) huruf c paling sedikit:na. menumbuhkan loyalitas anggota Koperasi;nb. mengembangkan potensi pasar selain anggota untuk npengembangan usaha dan/atau kelebihan kemampuan npelayanan Koperasi kepada masyarakat bukan nanggota;nc. pengembangan jaringan usaha Koperasi dan kerja nsama yang saling menguntungkan antar- Koperasi dan nantara Koperasi dengan pihak lain;nd. mendorong produk Koperasi untuk memiliki hak paten ndan merek sehingga mempunyai daya saing di pasar ndomestik dan pasar mancanegara; danne. melakukan kurasi produk unggulan daerah yang nmemiliki potensi sebagai waralaba.n(5) Kebijakan pada aspek keuangan sebagaimana dimaksud npada ayat (1) huruf d paling sedikit:na. meningkatkan partisipasi modal anggota Koperasi nmelalui pemupukan modal yang berasal dari:n1. hibah;n2. penyetaraan simpanan anggota; dan/ataun3. sumber lain yang sah dan tidak mengikat sesuai ndengan ketentuan peraturan perundang-undangan.nb. meningkatkan akses pembiayaan kepada sumber-sumber pembiayaan dalam jumlah, bunga atau imbal njasa, dan tenggat waktu tertentu yang berasal dari:n1. anggota;n2. non-anggota;n3. Koperasi lain;n4. bank dan industri keuangan nonbank; dan/ataun5. sumber lain yang sah dan tidak mengikat sesuai ndengan ketentuan peraturan perundang-undangan.n(6) Kebijakan pada aspek inovasi dan teknologi sebagaimana ndimaksud pada ayat (1) huruf e paling sedikit:na. meningkatkan kemampuan riset dan pengembangan nusaha Koperasi, keinovasian, dan transformasi digital;nb. mendorong peningkatan kemampuan inovasi Koperasi nuntuk meningkatkan efisiensi kerja dan daya saing nKoperasi;nc. mendorong pemanfaatan teknologi dalam bidang ndesain dan pengendalian mutu;nd. mendorong peningkatan kerja sama dan alih teknologi;ne. memberikan insentif kepada Koperasi yang nmengembangkan teknologi ramah lingkungan; dannf. pengembangan wirausaha Koperasi melalui Inkubasi."
+                     ]
+              },
+              {
+                     "tag": "UU PP No 7 Tahun 2021 Pasal 22",
+                     "patterns": [
+                            "Apa isi UU PP No 7 Tahun 2021 Pasal 22?",
+                            "Mohon berikan informasi mengenai isi dari UU PP No 7 Tahun 2021 Pasal 22.",
+                            "Sampaikan rincian tentang UU PP No 7 Tahun 2021 Pasal 22.",
+                            "Apa yang dapat Anda sampaikan mengenai konten UU PP No 7 Tahun 2021 Pasal 22?"
+                     ],
+                     "responses": [
+                            "UU PP No 7 Tahun 2021 Pasal 22 Berbunyi (1) Program kemudahan, pelindungan, dan pemberdayaan nKoperasi sebagaimana dimaksud dalam Pasal 3 sampai ndengan Pasal 21 dilaksanakan oleh Pemerintah Pusat dan nPemerintah Daerah secara terpadu sesuai kewenangannya.n(2) Pemerintah Daerah sesuai wilayah dan kewenangannya nmenyusun rencana tahunan dan menyediakan alokasi nanggaran program kemudahan, pelindungan, dan npemberdayaan usaha Koperasi.n(3) Alokasi anggaran sebagaimana dimaksud pada ayat (2) nbersumber dari:na. anggaran pendapatan dan belanja negara;nb. anggaran pendapatan dan belanja daerah; dannc. sumber lain yang sah dan tidak mengikat sesuai ndengan ketentuan peraturan perundang- undangan."
+                     ]
+              },
+              {
+                     "tag": "UU PP No 7 Tahun 2021 Pasal 23",
+                     "patterns": [
+                            "Apa isi UU PP No 7 Tahun 2021 Pasal 23?",
+                            "Mohon berikan informasi mengenai isi dari UU PP No 7 Tahun 2021 Pasal 23.",
+                            "Sampaikan rincian tentang UU PP No 7 Tahun 2021 Pasal 23.",
+                            "Apa yang dapat Anda sampaikan mengenai konten UU PP No 7 Tahun 2021 Pasal 23?"
+                     ],
+                     "responses": [
+                            "UU PP No 7 Tahun 2021 Pasal 23 Berbunyi Pemerintah Daerah melaporkan hasil pelaksanaan program nkemudahan, pelindungan, dan pemberdayaan usaha Koperasi nyang dibiayai melalui DAK dan/atau dana dekonsentrasi nkepada Pemerintah Pusat."
+                     ]
+              },
+              {
+                     "tag": "UU PP No 7 Tahun 2021 Pasal 24",
+                     "patterns": [
+                            "Apa isi UU PP No 7 Tahun 2021 Pasal 24?",
+                            "Mohon berikan informasi mengenai isi dari UU PP No 7 Tahun 2021 Pasal 24.",
+                            "Sampaikan rincian tentang UU PP No 7 Tahun 2021 Pasal 24.",
+                            "Apa yang dapat Anda sampaikan mengenai konten UU PP No 7 Tahun 2021 Pasal 24?"
+                     ],
+                     "responses": [
+                            "UU PP No 7 Tahun 2021 Pasal 24 Berbunyi (1) Pemerintah Pusat melalui Kementerian melakukan npemantauan dan evaluasi terhadap pelaksanaan program nkemudahan, pelindungan, dan pemberdayaan usaha nKoperasi paling sedikit 1 (satu) kali dalam 1 (satu) tahun.n(2) Hasil pemantauan dan evaluasi sebagaimana dimaksud npada ayat (1) menjadi dasar Pemerintah Pusat dalam nmenentukan keberlanjutan dan pengembangan program. nkemudahan, pelindungan, dan pemberdayaan usaha nKoperasi."
+                     ]
+              },
+              {
+                     "tag": "UU PP No 7 Tahun 2021 Pasal 25",
+                     "patterns": [
+                            "Apa isi UU PP No 7 Tahun 2021 Pasal 25?",
+                            "Mohon berikan informasi mengenai isi dari UU PP No 7 Tahun 2021 Pasal 25.",
+                            "Sampaikan rincian tentang UU PP No 7 Tahun 2021 Pasal 25.",
+                            "Apa yang dapat Anda sampaikan mengenai konten UU PP No 7 Tahun 2021 Pasal 25?"
+                     ],
+                     "responses": [
+                            "UU PP No 7 Tahun 2021 Pasal 25 Berbunyi Pemerintah Pusat dan Pemerintah Daerah melakukan npemberdayaan bagi Koperasi yang melakukan kegiatan usaha ntertentu di sektor:na. kelautan dan perikanan;nb. angkutan perairan pelabuhan;nc. kehutanan;nd. perdagangan; danne. pertanian."
+                     ]
+              },
+              {
+                     "tag": "UU PP No 7 Tahun 2021 Pasal 26",
+                     "patterns": [
+                            "Apa isi UU PP No 7 Tahun 2021 Pasal 26?",
+                            "Mohon berikan informasi mengenai isi dari UU PP No 7 Tahun 2021 Pasal 26.",
+                            "Sampaikan rincian tentang UU PP No 7 Tahun 2021 Pasal 26.",
+                            "Apa yang dapat Anda sampaikan mengenai konten UU PP No 7 Tahun 2021 Pasal 26?"
+                     ],
+                     "responses": [
+                            "UU PP No 7 Tahun 2021 Pasal 26 Berbunyi (1) Pemberdayaan bagi Koperasi di sektor kelautan dan nperikanan sebagaimana dimaksud dalam Pasal 25 huruf a nmeliputi:na. kerja sama penyelenggaraan tempat pelelangan ikan; ndannb. pembinaan oleh Pemerintah Daerah kabupaten/kota.n(2) Dalam penyelenggaraan tempat pelelangan ikan, nPemerintah Daerah kabupaten/kota melakukan kerja nsama daerah dengan Koperasi.n(3) Koperasi sebagaimana dimaksud pada ayat (2) harus nmemenuhi persyaratan:na. melakukan kegiatan usaha di sektor perikanan;nb. Koperasi dinyatakan sehat dan mampu nmenyelenggarakan pelelangan ikan di tempat npelelangan ikan; dannc. telah lolos seleksi dan kurasi oleh Kementerian ndan/atau Dinas."
+                     ]
+              }
+       ]
+}

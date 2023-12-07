@@ -1,0 +1,117 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hii",
+                "Hi",
+                "Halo",
+                "Hallo",
+                "Hai",
+                "Hello",
+                "Hy",
+                "Hyy",
+                "Helo"
+            ],
+            "responses": [
+                "Halo dengan TravBot disini. Ada yang bisa aku bantu?",
+                "Hellooww",
+                "Haii, ada yang bisa aku bantu?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Dah",
+                "Dadah",
+                "Bye",
+                "Byee",
+                "Good bye",
+                "Selamat tinggal",
+                "Sampai jumpa"
+            ],
+            "responses": [
+                "Bye!",
+                "Dadahh!",
+                "Good bye!",
+                "Dahh, semoga harimu menyenangkan yaa!",
+                "Sampai jumpa lagi!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "Terima kasih",
+                "Makasih",
+                "Terima kasih banyak."
+            ],
+            "responses": [
+                "Senang bisa membantu!",
+                "Kapan pun!",
+                "Dengan senang hati."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Maaf, aku ga ngerti yang kamu maksud 😔",
+                "Tolong berikan saya informasi yang lebih jelas 🥺",
+                "Oops, kamu ga sengaja yaa?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "Kamu bisa apa?",
+                "Kamu bisa ngapain?",
+                "Kamu bisa bantu apa?",
+                "Apa yang bisa kamu bantu?",
+                "Tolong bantuin",
+                "Tolong saya",
+                "Help"
+            ],
+            "responses": [
+                "Halo, aku bisa bantu kamu untuk pertanyaan seputar rekomendasi Paket Wisata dan juga Asuransi Perjalanan.",
+                "Silahkan tanyakan padaku soal rekomendasi Paket Wisata dan juga Asuransi Perjalanan yaa."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "UU PP No 7 Tahun 2021 Pasal 1 Ayat 1",
+            "patterns": [
+                "Apa definisi Koperasi?",
+                "Bagaimana Koperasi dapat dijelaskan?",
+                "Apa yang dimaksud dengan Koperasi?",
+                "Sebutkan prinsip-prinsip yang mendasari kegiatan Koperasi?",
+                "Apa yang menjadi dasar kegiatan Koperasi?",
+                "Apa definisi koperasi?",
+                "Bagaimana koperasi didefinisikan?",
+                "Jelaskan koperasi.",
+                "Apa yang dimaksud dengan koperasi?",
+                "Apa isi Pasal 1 Ayat 1 UU PP No 7 Tahun 2021?",
+                "Bagaimana Pasal 1 Ayat 1 UU PP No 7 Tahun 2021 dijelaskan?",
+                "Mohon jelaskan isi Pasal 1 Ayat 1 dari UU PP No 7 Tahun 2021."
+            ],
+            "responses": [
+                "Koperasi adalah badan usaha yang beranggotakan orang nseorang atau badan hukum Koperasi dengan melandaskan nkegiatannya berdasarkan prinsip Koperasi sekaligus nsebagai gerakan ekonomi rakyat yang berdasar atas asas nkekeluargaan."
+            ]
+        }
+    ]
+}
